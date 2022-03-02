@@ -1,19 +1,40 @@
 module.exports = {
-  env: {
-    browser: true,
-    es2021: true,
-    node: true
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
   },
-  extends: ["eslint:recommended", "plugin:react/recommended", "prettier"],
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
     },
-    ecmaVersion: "latest",
-    sourceType: "module"
+    "ecmaVersion": "latest",
+    "sourceType": "module"
   },
-  plugins: ["react", "prettier"],
-  rules: {
-    "prettier/prettier": "error"
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "indent": [
+      "error",
+      2
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "quotes": [
+      "error",
+      "double"
+    ],
+    "": [],
+    "semi": [
+      "error",
+      "always"
+    ]
   }
 };
