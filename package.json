@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
+    "format": "prettier -w src",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
@@ -21,7 +22,8 @@
     "@babel/core": "^7.12.9",
     "eslint": "^8.10.0",
     "eslint-plugin-react": "^7.29.2",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "prettier-eslint": "^13.0.0"
   },
   "private": true
 }
